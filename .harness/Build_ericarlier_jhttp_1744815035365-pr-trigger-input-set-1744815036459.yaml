@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ericarlier_jhttp_1744815035365-pr-trigger-input-set
+  identifier: Build_ericarlier_jhttp_1744815035365prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ericarlier_jhttp_1744815035365
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
