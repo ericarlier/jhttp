@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ericarlier_jhttp_1744815035365-push-trigger-input-set
+  identifier: Build_ericarlier_jhttp_1744815035365pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ericarlier_jhttp_1744815035365
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
